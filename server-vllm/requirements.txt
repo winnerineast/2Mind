@@ -1,0 +1,16 @@
+# when run this requirements, "pip install -r requirements.txt --no-build-isolation"
+
+# 1. 优先从 PyTorch 官方源找 CUDA 版本
+--extra-index-url https://download.pytorch.org/whl/cu121
+
+# 2. 核心框架 (黄金稳定版)
+torch==2.4.0
+torchvision==0.19.0
+torchaudio==2.4.0
+
+# 3. 编译型依赖 (去掉 --no-build-isolation，那个是命令行参数)
+flash-attn>=2.6.3
+
+# 4. 推理引擎
+transformers==4.45.2
+vllm>=0.6.3
