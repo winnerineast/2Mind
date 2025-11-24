@@ -3,3 +3,4 @@ mss>=9.0.1
 pillow>=10.0.0
 colorama>=0.4.6
 numpy
+playsound==1.2.2

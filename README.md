@@ -43,3 +43,11 @@ graph LR
     E -.-> A
 ```
 
+## How to Run
+### Step 1 - KYE (Know Your Environment)
+Here is my testing environment:
+* Windows 11 Pro (MEM 64GB/GPU 24GB)
+* Pycharm 
+* Minconda Python 3.13
+* WSL2 (Ubuntu 22.04)
+* CUDA 12.x
